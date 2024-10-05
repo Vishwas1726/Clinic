@@ -1,0 +1,123 @@
+/* Add CSS for carousel */
+.body{
+    background-color: black;
+}
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.carousel-caption button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.carousel-caption button:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-menu {
+   
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #143fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown a {
+   background-color:#143fff 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-item{
+   color: #0056b3;
+}
+
+.dropdown a:hover {background-color: #0056b3}
+
+.dropdown-menu:hover .dropdown {
+
+    display: block;
+}
+.dropdown-menu a{
+   color: black;
+}
+
+/* Add CSS for navbar */
+.navbar {
+    background-color: #0056b3;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ccc;
+}
+
+/* Add CSS for about section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
